@@ -8,6 +8,7 @@ Este proyecto contiene un nodo de ROS 2 llamado `RPMReaderNode` que se encarga d
 - Python 3.6 o superior
 - Biblioteca `pyserial`
 - Arduino con la biblioteca `Servo`
+- Raspberry Pi password: Robusto2025
 
 ## Instalación
 
