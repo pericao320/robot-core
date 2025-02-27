@@ -12,9 +12,16 @@ Este proyecto contiene un nodo de ROS 2 llamado `RPMReaderNode` que se encarga d
 
 ## Instalación
 
-1. Clona este repositorio en tu espacio de trabajo de ROS 2:
+1. Clona este repositorio y muevelo a tu espacio de trabajo de ROS 2:
     ```sh
-    git clone https://github.com/pericao320/robot-core.git
+    git clone --no-checkout <URL_DEL_REPOSITORIO> ~/repo_temp
+    cd ~/repo_temp
+    git sparse-checkout init --cone
+    git sparse-checkout set ruta/al/archivo/nodo_modificado.py
+    git checkout
+
+    mv ruta/al/archivo/nodo_modificado.py ~/ros2_ws/src/
+    rm -rf ~/repo_temp
     ```
 
 2. Instala la biblioteca `pyserial` si no la tienes instalada:
