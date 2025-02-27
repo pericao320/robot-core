@@ -67,3 +67,6 @@ El archivo [codigo_arduino_comunicacionros2_bueno.ino](http://_vscodecontentref_
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir cualquier cambio que te gustaría hacer.
+## Anexos
+### Descarga el apk
+<img src="https://i.imgur.com/FSFp2WL.jpeg" title="Imagen de ejemplo (Simula una capturada por el sensor Kinect)" alt="RvizImage" height="250"/>
